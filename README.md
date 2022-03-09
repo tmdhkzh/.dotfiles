@@ -12,10 +12,14 @@ $> git clone git@github.com:tmdhkzh/.dotfiles.git
 
 ## Supported Configurations
 
-### alacritty
+### alacritty  
 in **~/.alacritty.yml** or **~/.config/alacritty/alacritty.yml**:   
 `import ~/.dotfiles/alacritty/alacritty.yml`
 
-### tmux
+### tmux  
 in **~/.tmux.conf** or **~/.config/tmux/tmux.conf**:   
 `source-file ~/.dotfiles/tmux/tmux.conf`
+
+### vim  
+in **~/.vimrc**:   
+`source ~/.dotfiles/vim/vimrc.vim`  
