@@ -1,0 +1,24 @@
+[fetch]
+	prune = true
+[user]
+	email = bristau@eriez.com
+	name = Brian Ristau
+[core]
+	editor = vim
+	pager = less -x1,5
+[alias]
+	branchcommits = !git for-each-ref \
+		--sort=committerdate refs/heads/ \
+		--format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:short)%(color:reset))'
+	count-lines = "! git log --author=\"$1\" --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf \"added lines: %s, removed lines: %s\\n\", add, subs, loc }' #"
+	lg = !git log --graph --oneline --all
+[diff]
+	wsErrorHighlight = all
+[color]
+	ui = auto
+[merge]
+	tool = vimdiff
+	conflictStyle = diff3
+[mergetool]
+	prompt = false
+	keepBackup = false

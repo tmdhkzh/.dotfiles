@@ -151,7 +151,7 @@ font:
     style: Bold Italic
 
   # Point size
-  size: 11.0
+  size: 10.0
 
   # Offset is the extra space around each character. `offset.y` can be thought
   # of as modifying the line spacing, and `offset.x` as modifying the letter
@@ -181,7 +181,7 @@ colors:
   # COLORSCHEME: smoooooth.yml
   primary:
     foreground: '0xdbdbdb'
-    background: '0x14191e'
+    background: '0x161616'
   cursor:
     text: '0x000000'
     cursor: '0xfefffe'
@@ -326,7 +326,7 @@ colors:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 1.0
+window.opacity: 1.0
 
 #selection:
   # This string contains all characters that are used as separators for

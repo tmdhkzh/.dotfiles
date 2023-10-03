@@ -14,12 +14,25 @@ $> git clone git@github.com:tmdhkzh/.dotfiles.git
 
 ### alacritty  
 in **~/.alacritty.yml** or **~/.config/alacritty/alacritty.yml**:   
-`import ~/.dotfiles/alacritty/alacritty.yml`
+```
+import ~/.dotfiles/alacritty/alacritty.yml
+```
+
+### git
+in **~./gitconfig**:
+```
+[include]
+	path = ~/.dotfiles/git/gitconfig
+```
 
 ### tmux  
 in **~/.tmux.conf** or **~/.config/tmux/tmux.conf**:   
-`source-file ~/.dotfiles/tmux/tmux.conf`
+```
+source-file ~/.dotfiles/tmux/tmux.conf
+```
 
 ### vim  
 in **~/.vimrc**:   
-`source ~/.dotfiles/vim/vimrc.vim`  
+```
+source ~/.dotfiles/vim/vimrc.vim
+```
