@@ -18,6 +18,12 @@ in **~/.alacritty.yml** or **~/.config/alacritty/alacritty.yml**:
 import ~/.dotfiles/alacritty/alacritty.yml
 ```
 
+### bash
+in **~/.bashrc**:
+```
+[ -f $HOME/.dotfiles/bash/bashrc ] && . $HOME/.dotfiles/bash/bashrc
+```
+
 ### git
 in **~./gitconfig**:
 ```
